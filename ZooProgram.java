@@ -4,6 +4,8 @@ public class ZooProgram{
         leo.roar();
         Cat caico = new Cat();
         caico.meow();
+        Shark donny = new Shark ();
+        donny.swim();
         Sloth kevin = new Sloth();
         kevin.talk();
         kevin.eat();

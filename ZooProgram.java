@@ -23,5 +23,8 @@ public class ZooProgram{
         msO.teacherSays(0);
         msO.teacherSays(1);
         msO.teacherSays(4);
+	
+	Axolotl Ali = new Axolotl();
+	Ali.eats();
     }
 }

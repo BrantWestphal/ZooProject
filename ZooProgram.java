@@ -18,5 +18,10 @@ public class ZooProgram{
 	    
 	MountainGoat timothy = new MountainGoat();
         timothy.eat();
+        
+        Teacher msO = new Teacher();
+        msO.teacherSays(0);
+        msO.teacherSays(1);
+        msO.teacherSays(4);
     }
 }

@@ -15,5 +15,8 @@ public class ZooProgram{
         Sloth kevin = new Sloth();
         kevin.talk();
         kevin.eat();
+	    
+	MountainGoat timothy = new MountainGoat();
+        timothy.eat();
     }
 }

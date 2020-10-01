@@ -1,10 +1,10 @@
 public class ZooProgram{
     public static void main(String args[]){
         Lion leo = new Lion();
-    leo.roar();
+        leo.roar();
         
-    Monkey monky = new Monkey();
-    monky.chimper();
+        Monkey monky = new Monkey();
+        monky.chimper();
         
         Cat caico = new Cat();
         caico.meow();
@@ -16,7 +16,7 @@ public class ZooProgram{
         kevin.talk();
         kevin.eat();
         
-    Goat timothy = new Goat();
+        Goat timothy = new Goat();
         timothy.eat();
         
         Teacher msO = new Teacher();    //Ms. O added Teacher class and
@@ -25,7 +25,10 @@ public class ZooProgram{
         msO.teacherSays(1);
         msO.teacherSays(4);
     
-    Axolotl Ali = new Axolotl();
-    Ali.eats();
+        Axolotl Ali = new Axolotl();
+        Ali.eats();
+        
+        Elephant dumbo = new Elephant();
+        dumbo.fly();
     }
 }
